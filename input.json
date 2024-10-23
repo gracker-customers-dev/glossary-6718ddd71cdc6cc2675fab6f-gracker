@@ -1,0 +1,348 @@
+[
+  {
+    "categoryName": "default",
+    "categorySlug": "/",
+    "pages": [
+      {
+        "pageTitle": "INSPECT",
+        "metaDescription": "A process of examining data sources to identify potential threats and vulnerabilities.",
+        "slug": "/inspect/",
+        "pageHeading": "INSPECT",
+        "pageDescription": "A process of examining data sources to identify potential threats and vulnerabilities.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of Threat Intelligence, the term 'INSPECT' refers to the systematic examination and analysis of various data sources to detect indicators of compromise, vulnerabilities, and threats to information security. This process involves collecting data from multiple sources such as network logs, endpoint telemetry, threat feeds, and user behavior analytics. The INSPECT phase is critical in identifying anomalies or suspicious activities that may indicate a security breach or attempted attack. Analysts utilize various tools and methodologies to scrutinize this data, looking for patterns or signatures associated with known threats. The outcome of the INSPECT process helps organizations to understand their threat landscape better, prioritize their response efforts, and reinforce their security posture. Regular inspection of data sources is a proactive measure that can significantly reduce the risk of successful cyberattacks by enabling timely detection and response.",
+          "## Examples",
+          "- Analyzing firewall logs for unusual access attempts.\n- Reviewing endpoint security alerts to identify malware infections.",
+          "## Additional Information",
+          "- INSPECT is often part of a larger threat hunting process.\n- Automated tools can enhance the efficiency of data inspection.",
+          "## References",
+          "- [What are Threat Intelligence Sources?](https://www.recordedfuture.com/threat-intelligence-101/intelligence-sources-collection/threat-intelligence-sources)\n- [Essential Threat Intelligence Collection Sources You Need ...](https://kravensecurity.com/intelligence-collection-sources/)\n- [The Importance of Threat Intelligence Data Collection](https://www.crowdsec.net/blog/importance-of-threat-intelligence-data-collection)\n- [Threat Intelligence: Complete Guide to Process and ...](https://www.bluevoyant.com/knowledge-center/threat-intelligence-complete-guide-to-process-and-technology)\n- [A curated list of Awesome Threat Intelligence resources](https://github.com/hslatman/awesome-threat-intelligence)\n- [Threat Intelligence Feeds Explained](https://www.bluevoyant.com/knowledge-center/threat-intelligence-feeds-explained)\n- [The Complete InfoSec Guide for Threat Intelligence](https://cybeready.com/category/threat-intelligence)\n- [Discover what threat intelligence is | 3 key attributes](https://www.sumologic.com/glossary/threat-intelligence/)\n- [Top Open Source Threat Intelligence Platforms](https://www.recordedfuture.com/threat-intelligence-101/tools-and-technologies/open-source-threat-intelligence-platforms)\n- [9 Open Source Threat Intelligence Sources - Flare.io](https://flare.io/learn/resources/blog/threat-intelligence-sources/)"
+        ]
+      },
+      {
+        "pageTitle": "READ",
+        "metaDescription": "READ refers to the process of accessing and retrieving data from various sources for threat intelligence analysis.",
+        "slug": "/read/",
+        "pageHeading": "READ",
+        "pageDescription": "READ refers to the process of accessing and retrieving data from various sources for threat intelligence analysis.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of threat intelligence, READ is an essential step in the data acquisition process, enabling analysts to gather relevant information from diverse data sources. This may include open-source intelligence (OSINT), internal logs, security feeds, and threat databases. The READ process involves querying these sources to extract meaningful data that can be used to understand potential security threats, vulnerabilities, or emerging attack patterns. By effectively reading and interpreting data, organizations can enhance their situational awareness and improve their defense mechanisms against cyber threats. The information retrieved during the READ phase can be structured or unstructured, and it often requires further processing and analysis to derive actionable insights. In an era of increasing cyber threats, the ability to efficiently READ data from various sources plays a crucial role in the proactive identification and mitigation of risks.",
+          "## Examples",
+          "- Accessing threat feeds for Indicators of Compromise (IoCs).\n- Retrieving logs from security devices to analyze past incidents.",
+          "## Additional Information",
+          "- READ is often the first step in the threat intelligence lifecycle.\n- The quality of data obtained during the READ phase significantly impacts the overall effectiveness of threat analysis.",
+          "## References",
+          "- [Data Sources | MITRE ATT&CK®](https://attack.mitre.org/datasources/)\n- [Understand threat intelligence - Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/understand-threat-intelligence)\n- [Threat Intel Lookup — msticpy 2.12.0 documentation](https://msticpy.readthedocs.io/en/latest/data_acquisition/TIProviders.html)\n- [Best Practices for Using ThreatExchange](https://developers.facebook.com/docs/threat-exchange/best-practices)\n- [Upload a STIX or OpenIOC structured threat intelligence file in Splunk Enterprise Security](https://docs.splunk.com/Documentation/ES/7.0.1/Admin/Uploadthreatfile)\n- [Intel Feeds and Sources | s0cm0nkey's Security Reference Guide](https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide/cyber-intelligence/intel-feeds-and-sources)\n- [Threat Fields Usage and Examples | Elastic Common Schema (ECS) Reference [8.11]](https://www.elastic.co/guide/en/ecs/current/ecs-threat-usage.html)\n- [Work with threat indicators - Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/work-with-threat-indicators)\n- [Sighting of an Indicator](https://oasis-open.github.io/cti-documentation/examples/sighting-of-an-indicator)\n- [Data Documentation — Threat Hunter Playbook](https://threathunterplaybook.com/pre-hunt/data_documentation.html)"
+        ]
+      },
+      {
+        "pageTitle": "data-catalog-glossaries",
+        "metaDescription": "A structured collection of terms and definitions used to describe data sources and facilitate understanding in threat intelligence.",
+        "slug": "/data-catalog-glossaries/",
+        "pageHeading": "data-catalog-glossaries",
+        "pageDescription": "A structured collection of terms and definitions used to describe data sources and facilitate understanding in threat intelligence.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of threat intelligence, 'data-catalog-glossaries' refer to curated sets of terms and definitions that provide clear and consistent meanings for various data sources, types of threats, and related concepts. These glossaries serve as a critical resource for analysts and security professionals, ensuring that everyone involved in threat detection, analysis, and response has a shared understanding of the terminology used in the field. A well-maintained data catalog glossary can enhance communication, reduce ambiguity, and improve the efficiency of threat intelligence operations. By standardizing definitions across different teams and organizations, glossaries help in the classification and organization of data sources, making it easier to integrate new data and understand its relevance to existing threat models. Furthermore, they can include context-specific examples, clarifications, and relationships between terms, which aid in the education and onboarding of new team members and stakeholders.",
+          "## Examples",
+          "- Common Threat Vocabulary: Definitions of terms like 'malware', 'phishing', and 'ransomware'.\n- Data Source Categories: Glossary entries that categorize data sources such as open-source intelligence (OSINT) and commercial threat feeds.",
+          "## Additional Information",
+          "- Glossaries can be integrated into threat intelligence platforms for easy access.\n- Regular updates to glossaries ensure they remain relevant with evolving cybersecurity terminology.",
+          "## References",
+          "- [Business Glossary vs. Data Catalog: Differences & Example](https://atlan.com/business-glossary-vs-data-catalog/)\n- [Data Dictionary vs Data Catalog vs Business Glossary](https://www.analytics8.com/blog/data-dictionary-vs-data-catalog-vs-business-glossary/)\n- [The Role of the Data Catalog in Data Security](https://www.alation.com/blog/role-of-data-catalog-in-data-security/)\n- [Data Catalog](https://securiti.ai/products/data-catalog/)\n- [Role of Data Catalog in Data Security: Why It Matters in 2024](https://atlan.com/role-of-data-catalog-in-data-security/)\n- [Microsoft Purview Data Catalog](https://learn.microsoft.com/en-us/purview/what-is-data-catalog)\n- [Business Glossary vs Data Catalog](https://www.informatica.com/blogs/business-glossary-vs-data-catalog.html)\n- [Data Catalog (Glossary) - Satori](https://satoricyber.com/glossary/data-catalog/)\n- [What Is a Data Catalog?](https://www.ibm.com/topics/data-catalog)\n- [7 important data catalog features you should know](https://www.datagalaxy.com/en/blog/7-most-important-data-catalog-features/)"
+        ]
+      },
+      {
+        "pageTitle": "glossary key",
+        "metaDescription": "A glossary key is a specific term or phrase used to define and categorize concepts within a threat intelligence context.",
+        "slug": "/glossary-key/",
+        "pageHeading": "glossary key",
+        "pageDescription": "A glossary key is a specific term or phrase used to define and categorize concepts within a threat intelligence context.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the realm of threat intelligence, a glossary key serves as a crucial reference point that helps analysts and cybersecurity professionals understand and communicate complex terms and concepts. These keys are essential for ensuring consistency in terminology across different data sources, reports, and intelligence feeds. A well-defined glossary key not only clarifies the meaning of specific terms but also provides a standardized way to refer to various threats, vulnerabilities, and mitigation strategies. This is particularly important in an environment where new threats and technologies emerge rapidly. By utilizing glossary keys, organizations can improve their threat intelligence processes, enhance collaboration among teams, and ensure that everyone is on the same page regarding the threats they face and the appropriate responses. Furthermore, glossary keys aid in the integration of diverse data sources, enabling better analysis and actionable insights. Overall, they are fundamental to promoting clear communication and effective threat management within the cybersecurity landscape.",
+          "## Examples",
+          "- Malware: A software designed to disrupt, damage, or gain unauthorized access to computer systems.\n- Phishing: A method of trying to gather personal information using deceptive emails and websites.",
+          "## Additional Information",
+          "- Glossary keys can be part of a larger taxonomy used for organizing threat intelligence.\n- Regular updates to glossary keys are necessary to keep pace with evolving cybersecurity threats.",
+          "## References",
+          "- [Z | Ian Neil’s Security+ Study Materials](https://securityplus.training/the-book/glossary-t-z/)\n- [Threat Hunting Resources and Glossary -](https://www.endace.com/solutions/cybersecurity/threat-hunting/resources-and-glossary)\n- [Glossary](https://niccs.cisa.gov/cybersecurity-career-resources/glossary)\n- [InfoSec Glossary - SANS Internet Storm Center](https://isc.sans.edu/tools/glossary/)\n- [I | Ian Neil’s Security+ Study Materials](https://securityplus.training/the-book/glossary-d-i/)\n- [Glossary — ThreatIngestor documentation](https://inquest.readthedocs.io/projects/threatingestor/en/latest/glossary.html)\n- [Cyber Glossary](https://nsarchive.gwu.edu/cyber-glossary)\n- [Glossary](https://csrc.nist.gov/glossary)\n- [website/source/localizable/resources/digital-security-glossary.html.markdown at master · securitywithoutborders/website](https://github.com/securitywithoutborders/website/blob/master/source/localizable/resources/digital-security-glossary.html.markdown)\n- [Cybersecurity Terms and Wiki Glossary](https://intsights.com/glossary)"
+        ]
+      },
+      {
+        "pageTitle": "compartment",
+        "metaDescription": "A designated area or category within a data source that restricts access to specific information.",
+        "slug": "/compartment/",
+        "pageHeading": "compartment",
+        "pageDescription": "A designated area or category within a data source that restricts access to specific information.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of Data Sources for Threat Intelligence, a 'compartment' refers to a controlled space or segment within a data repository where sensitive information is stored and access is limited based on user roles and security protocols. This approach enhances data security by ensuring that only authorized personnel can access sensitive threat intelligence data relevant to their roles. Compartments are essential for maintaining information integrity and confidentiality, especially in organizations dealing with classified or sensitive data. By compartmentalizing information, organizations can better protect against insider threats, data leaks, and unauthorized access. Each compartment may contain specific types of threat intelligence data, such as indicators of compromise (IOCs), threat actor profiles, or vulnerabilities, each curated for different teams or purposes. The effective use of compartments allows organizations to streamline their threat intelligence processes while maintaining robust security measures.",
+          "## Examples",
+          "- A compartment for malware analysis data accessible only to the cybersecurity team.\n- A compartment for vulnerability information available to the IT department but not to other staff.",
+          "## Additional Information",
+          "- Compartments can be enforced through access control mechanisms and permissions.\n- They help in compliance with regulations and standards related to data protection.",
+          "## References",
+          "- [ORKL](https://orkl.eu/sources)\n- [intel-data/sources.yml at master · safing/intel-data](https://github.com/safing/intel-data/blob/master/lists/sources.yml)\n- [Data sources per platform](https://github.com/rabobank-cdc/DeTTECT/wiki/Data-sources-per-platform)\n- [Data Sources | MITRE ATT&CK®](https://attack.mitre.org/datasources/)\n- [Threat Data | s0cm0nkey's Security Reference Guide](https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide/cyber-intelligence/threat-data)\n- [misp-galaxy/threat-actor.json at main · MISP/misp-galaxy](https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json)\n- [](https://raw.githubusercontent.com/Cisco-Talos/Threat-Round-Up/master/2023/1020.json)\n- [Cyber Resource Center](https://www.threat-intel.xyz/cyber_resource_center/)\n- [GitHub - danieldonda/Cyber-Threat-Intelligence: Compartilhamento de informação sobre ameaças e recursos de pesquisa](https://github.com/danieldonda/Cyber-Threat-Intelligence)\n- [Threat Intelligence](http://www.covert.io/threat-intelligence/)"
+        ]
+      },
+      {
+        "pageTitle": "data catalog",
+        "metaDescription": "A data catalog is a centralized repository that enables organizations to manage, discover, and understand their data assets.",
+        "slug": "/data-catalog/",
+        "pageHeading": "data catalog",
+        "pageDescription": "A data catalog is a centralized repository that enables organizations to manage, discover, and understand their data assets.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of Threat Intelligence, a data catalog is crucial for organizing and maintaining an inventory of various data sources used to gather threat-related information. It serves as a comprehensive guide that helps security analysts and threat researchers to locate, access, and utilize data effectively. A data catalog typically includes metadata about each data source, such as its type (structured or unstructured), source location, frequency of updates, data owners, and relevant usage policies. By utilizing a data catalog, organizations can enhance their data governance, ensure compliance, and improve collaboration among teams. It also facilitates better data quality management, as analysts can quickly identify which data sources are most reliable or relevant for their threat intelligence needs. In an ever-evolving threat landscape, a well-maintained data catalog allows teams to stay organized and responsive, ensuring that they have the right information to effectively mitigate risks.",
+          "## Examples",
+          "- A catalog listing open-source threat intelligence feeds.\n- An inventory of internal security logs and data sources.",
+          "## Additional Information",
+          "- Supports data lineage tracking and impact assessment.\n- Enhances data discovery and reduces time spent searching for relevant information.",
+          "## References",
+          "- [intel-data/sources.yml at master · safing/intel-data](https://github.com/safing/intel-data/blob/master/lists/sources.yml)\n- [ORKL](https://orkl.eu/sources)\n- [Data Sources | MITRE ATT&CK®](https://attack.mitre.org/datasources/)\n- [Threat Data | s0cm0nkey's Security Reference Guide](https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide/cyber-intelligence/threat-data)\n- [Cyber Resource Center](https://www.threat-intel.xyz/cyber_resource_center/)\n- [THREATSTREAM](https://api.threatstream.com/)\n- [Index of /Threat-Intel/stix2/](https://osint.digitalside.it/Threat-Intel/stix2/)\n- [ThreatFox - Share Indicators Of Compromise (IOCs)](https://threatfox.abuse.ch/)\n- [misp-galaxy/planning-and-operational-support.json at main · MISP/misp-galaxy](https://github.com/MISP/misp-galaxy/blob/main/vocabularies/threat-actor/planning-and-operational-support.json)\n- [Threat Intelligence](http://www.covert.io/threat-intelligence/)"
+        ]
+      },
+      {
+        "pageTitle": "Azure Data Catalog",
+        "metaDescription": "A fully managed cloud service for registering, enriching, discovering, and managing data sources.",
+        "slug": "/azure-data-catalog/",
+        "pageHeading": "Azure Data Catalog",
+        "pageDescription": "A fully managed cloud service for registering, enriching, discovering, and managing data sources.",
+        "pageContentBlocks": [
+          "## Description",
+          "Azure Data Catalog is a cloud-based service that enables organizations to effectively manage their data sources by providing a central repository for data asset registration, discovery, and management. In the context of threat intelligence, Azure Data Catalog allows analysts and security teams to catalog and enrich data sources related to threats, vulnerabilities, and incidents. This service helps organizations create a comprehensive inventory of their data assets, making it easier to search for relevant datasets that can aid in threat analysis. Users can add metadata, create tags, and provide descriptions for the data sources, ensuring that the information is easily discoverable by other users. Additionally, Azure Data Catalog facilitates collaboration among teams by allowing users to share insights about data assets and their relevance to threat intelligence efforts. This serves to improve the overall effectiveness of threat detection, response strategies, and the organization's ability to mitigate risks associated with cyber threats.",
+          "## Examples",
+          "- Cataloging threat intelligence feeds for better search and discovery.\n- Enriching incident response data with metadata for improved context.",
+          "## Additional Information",
+          "- Integrates with Azure services and various data sources.\n- Supports data governance and compliance efforts by providing a clear overview of data assets.",
+          "## References",
+          "- [Supported data sources in Azure Data Catalog](https://learn.microsoft.com/en-us/azure/data-catalog/data-catalog-dsr)\n- [How to discover data sources in Azure Data Catalog](https://learn.microsoft.com/en-us/azure/data-catalog/data-catalog-how-to-discover)\n- [Introduction to Azure Data Catalog](https://learn.microsoft.com/en-us/azure/data-catalog/overview)\n- [How to connect to data sources in Azure Data Catalog](https://learn.microsoft.com/en-us/azure/data-catalog/data-catalog-how-to-connect)\n- [Azure Data Catalog documentation](https://learn.microsoft.com/en-us/azure/data-catalog/)\n- [Register data sources in Azure Data Catalog](https://learn.microsoft.com/en-us/azure/data-catalog/data-catalog-how-to-register)\n- [How to annotate data sources in Azure Data Catalog](https://learn.microsoft.com/en-us/azure/data-catalog/data-catalog-how-to-annotate)\n- [How to document data sources in Azure Data Catalog](https://learn.microsoft.com/en-us/azure/data-catalog/data-catalog-how-to-documentation)\n- [Azure Data Catalog common scenarios](https://learn.microsoft.com/en-us/azure/data-catalog/data-catalog-common-scenarios)\n- [Manage data assets in Azure Data Catalog](https://learn.microsoft.com/en-us/azure/data-catalog/data-catalog-how-to-manage)"
+        ]
+      },
+      {
+        "pageTitle": "Tagging",
+        "metaDescription": "The process of assigning descriptive labels or keywords to data for better categorization and retrieval.",
+        "slug": "/tagging/",
+        "pageHeading": "Tagging",
+        "pageDescription": "The process of assigning descriptive labels or keywords to data for better categorization and retrieval.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of threat intelligence, tagging refers to the practice of applying labels to various data sources, such as threat reports, indicators of compromise (IOCs), vulnerabilities, and other relevant information. This process helps analysts quickly identify and categorize threats based on different criteria, such as severity, type, or source. By tagging data effectively, organizations can streamline their threat intelligence workflows, making it easier to filter, sort, and search through large volumes of information. For instance, tags can denote the nature of an attack, the affected systems, or the tactics, techniques, and procedures (TTPs) employed by adversaries. Furthermore, tagging can facilitate collaboration among teams by providing a shared vocabulary and context for discussing threats. Overall, tagging enhances situational awareness and enables more efficient incident response and threat mitigation strategies.",
+          "## Examples",
+          "- Tagging a malware sample with labels such as 'ransomware', 'Windows', and 'C2' to indicate its characteristics and behavior.\n- Applying tags to threat reports based on the attacker group involved, such as 'APT28' or 'Lazarus Group', to facilitate quick reference.",
+          "## Additional Information",
+          "- Tags can be hierarchical, allowing for more granular categorization (e.g., 'malware' -> 'ransomware' -> 'AES-Ni ransomware').\n- Tagging can be automated using machine learning algorithms to enhance the efficiency of threat intelligence processes.",
+          "## References",
+          "- [Tags](https://docs.tenable.com/tenableio/Content/Platform/Settings/Tagging/Tags.htm)\n- [Best Practices for Using ThreatExchange](https://developers.facebook.com/docs/threat-exchange/best-practices)\n- [results matching \" \"](https://www.circl.lu/doc/misp/best-practices/)\n- [Tags — ThreatConnect Developer Docs latest documentation](https://docs.threatconnect.com/en/latest/rest_api/v2/tags/tags.html)\n- [Defining ATT&CK Data Sources, Part I: Enhancing the Current State](https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f)\n- [MISP taxonomies and classification as machine tags](https://www.misp-project.org/taxonomies.html)\n- [How to use tagging effectively (Part 1)](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/how-to-use-tagging-effectively-part-1/ba-p/1964058#:~:text=Microsoft%20Defender%20for%20Endpoint%20also,plist%20file)\n- [BlogArticlePrintPage](https://techcommunity.microsoft.com/t5/blogs/blogarticleprintpage/blog-id/MicrosoftDefenderATPBlog/article-id/1030)\n- [What's new: Threat Intelligence menu item in Public Preview!](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-threat-intelligence-menu-item-in-public-preview/ba-p/1646597)\n- [](https://www.circl.lu/assets/files/misp-training/luxembourg2018/6-taxonomies.pdf)"
+        ]
+      },
+      {
+        "pageTitle": "Business Glossary",
+        "metaDescription": "A comprehensive collection of terms and definitions relevant to a business's operations and data usage.",
+        "slug": "/business-glossary/",
+        "pageHeading": "Business Glossary",
+        "pageDescription": "A comprehensive collection of terms and definitions relevant to a business's operations and data usage.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of Data Sources for Threat Intelligence, a Business Glossary serves as an essential reference that defines key terms and concepts used across the organization. It acts as a centralized repository that promotes a common understanding of terminology associated with threat intelligence data, which is crucial for effective communication among teams involved in cybersecurity, risk management, and compliance. A well-maintained business glossary aids in reducing ambiguity and ensuring that stakeholders have a clear understanding of the data sources, methodologies, and metrics used to assess threats. This is particularly important in the fast-evolving landscape of cybersecurity, where precise definitions can impact decision-making and response strategies. By documenting terms such as 'threat actor', 'vulnerability', 'indicator of compromise (IoC)', and others, the glossary supports knowledge sharing, improves data governance, and enhances collaboration between technical and non-technical teams.",
+          "## Examples",
+          "- Definition of 'Threat Actor' as individuals or groups responsible for malicious activities.\n- Clarification of 'Indicator of Compromise (IoC)' as pieces of forensic data that identify potentially malicious activity.",
+          "## Additional Information",
+          "- A Business Glossary can enhance data quality by standardizing terminology.\n- It is often part of a broader data management strategy that includes data dictionaries and metadata repositories.",
+          "## References",
+          "- [Threat Intelligence Glossary](https://www.silobreaker.com/glossary/)\n- [Why is a business glossary essential to data literacy and ...](https://www.collibra.com/us/en/blog/why-is-a-business-glossary-essential-to-data-literacy-and-data-intelligence)\n- [Threat Intelligence Glossary - ThreatDotMedia](https://threat.media/glossary/threat_intelligence/)\n- [Threat Intelligence Terms To Know](https://arcticwolf.com/resources/blog/threat-intelligence-terms-everyone-should-know/)\n- [Data Governance 101: How to Build a Business Glossary](https://bigid.com/blog/what-is-a-business-glossary/)\n- [What Is a Data Glossary | Bonus: 4 Tips for Building One](https://atlan.com/what-is-data-glossary/)\n- [What are Threat Intelligence Sources?](https://www.recordedfuture.com/threat-intelligence-101/intelligence-sources-collection/threat-intelligence-sources)\n- [Data Dictionary vs. Business Glossary](https://www.alation.com/blog/data-dictionary-vs-business-glossary/)\n- [Data Dictionary vs Data Catalog vs Business Glossary](https://www.analytics8.com/blog/data-dictionary-vs-data-catalog-vs-business-glossary/)\n- [Data and Business Intelligence Glossary Terms](https://www.metabase.com/glossary/)"
+        ]
+      },
+      {
+        "pageTitle": "Governed Tagging",
+        "metaDescription": "A structured approach to categorizing and labeling data sources in threat intelligence.",
+        "slug": "/governed-tagging/",
+        "pageHeading": "Governed Tagging",
+        "pageDescription": "A structured approach to categorizing and labeling data sources in threat intelligence.",
+        "pageContentBlocks": [
+          "## Description",
+          "Governed tagging refers to a systematic process of applying standardized tags to data sources used in threat intelligence. This method ensures that data is organized and easily retrievable, enhancing the ability to analyze and correlate information effectively. By using governed tagging, organizations can establish clear guidelines for what types of tags should be applied, who can apply them, and how they can be used. This helps maintain consistency across various teams and departments, promotes better communication, and reduces ambiguity in the interpretation of data. Governed tagging is particularly valuable in the realm of threat intelligence, where timely and accurate information is crucial for identifying and responding to threats. With a well-implemented governed tagging system, security teams can quickly filter and prioritize data sources based on relevance, type of threat, or other critical attributes, thereby improving the efficiency of threat detection and response operations.",
+          "## Examples",
+          "- Tags for categorizing data sources by threat type (e.g., malware, phishing).\n- Tags indicating the level of confidence in the data source's reliability.",
+          "## Additional Information",
+          "- Governed tagging frameworks can incorporate input from various stakeholders to ensure comprehensive coverage.\n- Regular audits and updates of the tagging system are essential to adapt to evolving threat landscapes.",
+          "## References",
+          "- [Understand threat intelligence - Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/understand-threat-intelligence)\n- [Guide to Cyber Threat Information Sharing](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-150.pdf)\n- [Using tags in Microsoft Defender Threat Intelligence ...](https://learn.microsoft.com/en-us/defender/threat-intelligence/using-tags)\n- [A curated list of Awesome Threat Intelligence resources](https://github.com/hslatman/awesome-threat-intelligence)\n- [Share Threat Intelligence](https://www.tagtoday.net/threat-sharing)\n- [TAG-100 Uses Open-Source Tools in Suspected Global ...](https://go.recordedfuture.com/hubfs/reports/cta-2024-0716.pdf)\n- [Threat Intelligence](https://docs.datadoghq.com/security/application_security/threats/threat-intelligence/)\n- [Securing Data in a Generative AI World: 6 Steps](https://bigid.com/blog/6-steps-to-securing-data-in-generative-ai/)\n- [TAG-100: New Threat Actor Uses Open-Source Tools for ...](https://thehackernews.com/2024/07/tag-100-new-threat-actor-uses-open.html)"
+        ]
+      },
+      {
+        "pageTitle": "Glossary Administrators",
+        "metaDescription": "Individuals responsible for maintaining and curating threat intelligence data sources.",
+        "slug": "/glossary-administrators/",
+        "pageHeading": "Glossary Administrators",
+        "pageDescription": "Individuals responsible for maintaining and curating threat intelligence data sources.",
+        "pageContentBlocks": [
+          "## Description",
+          "Glossary Administrators play a crucial role in the management of threat intelligence data sources by ensuring that the terminology used is accurate, consistent, and up-to-date. They curate a comprehensive glossary of terms related to cybersecurity threats, vulnerabilities, and mitigations. This role often involves collaborating with cybersecurity experts, analysts, and researchers to gather input on relevant terms and their definitions. By maintaining a well-organized glossary, these administrators help facilitate better communication among teams, enabling a clearer understanding of threats and enhancing the effectiveness of threat intelligence operations. Furthermore, they may also update the glossary in response to the evolving landscape of cyber threats, ensuring that all stakeholders have access to the most relevant and current information. Their work is vital in standardizing terminology across different platforms and tools used in threat intelligence, thereby promoting consistency and reducing misunderstandings in threat reporting and analysis.",
+          "## Examples",
+          "- Managing and updating a glossary of cybersecurity terms for an organization's threat intelligence program.\n- Collaborating with threat analysts to define new terms related to emerging cyber threats.",
+          "## Additional Information",
+          "- Glossary Administrators often use software tools for version control and collaboration.\n- They may also provide training on the importance of standardized terminology in threat reporting.",
+          "## References",
+          "- [Glossary - Glitchdata](https://wiki.glitchdata.com/index.php/Glossary)\n- [Glossary](https://niccs.cisa.gov/cybersecurity-career-resources/glossary)\n- [Glossary — ThreatIngestor documentation](https://inquest.readthedocs.io/projects/threatingestor/en/latest/glossary.html)\n- [Glossary / Cyber Threat Intelligence SIG Curriculum](https://www.first.org/global/sigs/cti/curriculum/glossary)\n- [Z | Ian Neil’s Security+ Study Materials](https://securityplus.training/the-book/glossary-t-z/)\n- [GreyNoise glossary](https://www.greynoise.io/glossary)\n- [I | Ian Neil’s Security+ Study Materials](https://securityplus.training/the-book/glossary-d-i/)\n- [Threat Hunting Resources and Glossary -](https://www.endace.com/solutions/cybersecurity/threat-hunting/resources-and-glossary)\n- [InfoSec Glossary - SANS Internet Storm Center](https://isc.sans.edu/tools/glossary/)\n- [threat intelligence - Glossary | CSRC](https://csrc.nist.gov/glossary/term/Threat_Intelligence)"
+        ]
+      },
+      {
+        "pageTitle": "Hierarchy of Terms",
+        "metaDescription": "A structured framework that organizes terms related to threat intelligence from general to specific.",
+        "slug": "/hierarchy-of-terms/",
+        "pageHeading": "Hierarchy of Terms",
+        "pageDescription": "A structured framework that organizes terms related to threat intelligence from general to specific.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of data sources for threat intelligence, the 'Hierarchy of Terms' refers to a systematic arrangement of concepts and terminology that helps analysts categorize and interpret data effectively. This hierarchy typically begins with broad categories that encompass various threats and gradually narrows down to specific types of threats or indicators. For instance, at the top level, one might have categories like 'Cyber Threats', which could further branch into 'Malware', 'Phishing', and 'Insider Threats'. Each of these categories can then be subdivided into more specific terms, such as 'Ransomware' under 'Malware' or 'Spear Phishing' under 'Phishing'. This hierarchical organization is crucial for helping security professionals prioritize their responses, understand relationships between different threat types, and facilitate effective communication within teams and across organizations. By using a well-defined hierarchy of terms, threat intelligence teams can create a common language that enhances collaboration and improves situational awareness.",
+          "## Examples",
+          "- General Category: Cyber Threats → Specific Type: Malware → Specific Example: Ransomware\n- General Category: Physical Threats → Specific Type: Insider Threats → Specific Example: Data Theft by Employee",
+          "## Additional Information",
+          "- A well-defined hierarchy aids in efficient data retrieval and analysis.\n- Hierarchies can vary between organizations and may evolve as new threats emerge.",
+          "## References",
+          "- [Data Sources | MITRE ATT&CK®](https://attack.mitre.org/datasources/)\n- [Data Sources | MITRE ATT&CK®](https://attack.mitre.org/versions/v14/datasources/)\n- [MISP taxonomies and classification as machine tags](https://www.misp-project.org/taxonomies.html)\n- [threat intelligence - Glossary | CSRC](https://csrc.nist.gov/glossary/term/threat_intelligence)\n- [MITRE ATT&CK®](https://attack.mitre.org/)\n- [Structured Threat Information eXpression (STIX™) 1.x Archive Website](https://stixproject.github.io)\n- [Methodologies](https://www.threat-intelligence.eu/methodologies/)\n- [What is a Threat Intelligence Platform I Resources I Anomali](https://www.anomali.com/resources/what-is-threat-intelligence)\n- [Glossary — ThreatIngestor documentation](https://inquest.readthedocs.io/projects/threatingestor/en/latest/glossary.html)\n- [Reference-Security-Incident-Taxonomy-Task-Force/working_copy/humanv1.md at master · enisaeu/Reference-Security-Incident-Taxonomy-Task-Force](https://github.com/enisaeu/Reference-Security-Incident-Taxonomy-Task-Force/blob/master/working_copy/humanv1.md)"
+        ]
+      },
+      {
+        "pageTitle": "glossary tag",
+        "metaDescription": "A glossary tag is a keyword or phrase used to categorize and define specific terms related to threat intelligence data sources.",
+        "slug": "/glossary-tag/",
+        "pageHeading": "glossary tag",
+        "pageDescription": "A glossary tag is a keyword or phrase used to categorize and define specific terms related to threat intelligence data sources.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of threat intelligence, a glossary tag serves as a label that helps organize and classify various terms and concepts within the domain. These tags are crucial for standardizing language across different threat intelligence platforms, ensuring that analysts and security professionals can communicate effectively. By using glossary tags, organizations can create a common understanding of terminologies related to threats, vulnerabilities, and attack vectors. This facilitates clearer communication, better reporting, and enhanced collaboration among teams. For example, a glossary tag might categorize terms like 'phishing,' 'malware,' and 'DDoS attack' under a broader category of 'cyber threats.' Additionally, glossary tags can aid in searchability and retrieval of information, as users can filter or search for specific tags to find relevant intelligence data quickly. In a rapidly evolving field like cybersecurity, maintaining an up-to-date glossary of terms is essential for staying informed and responsive to new threats.",
+          "## Examples",
+          "- Example 1: 'Phishing' as a glossary tag for emails designed to trick users into providing sensitive information.\n- Example 2: 'Ransomware' as a glossary tag for malicious software that encrypts data and demands payment for decryption.",
+          "## Additional Information",
+          "- Additional info 1: Glossary tags can be used in threat intelligence platforms to improve the relevance of search results.\n- Additional info 2: Regular updates to glossary tags are important to reflect changes in the threat landscape and emerging cyber threats.",
+          "## References",
+          "- [InfoSec Glossary - SANS Internet Storm Center](https://isc.sans.edu/tools/glossary/)\n- [GitHub - Digital-Forensics-Discord-Server/DFIRGlossary: A collaboration effort by the DFIR community to provide definitions (sometimes multiple) for common forensic terms!](https://github.com/Digital-Forensics-Discord-Server/DFIRGlossary)\n- [Glossary — ThreatIngestor documentation](https://inquest.readthedocs.io/projects/threatingestor/en/latest/glossary.html)\n- [Z | Ian Neil’s Security+ Study Materials](https://securityplus.training/the-book/glossary-t-z/)\n- [misp-taxonomies/threats-to-dns at 0c1b3f1f3a4330fbefdcbb275fac662af77017b0 · MISP/misp-taxonomies](https://github.com/MISP/misp-taxonomies/tree/0c1b3f1f3a4330fbefdcbb275fac662af77017b0/threats-to-dns)\n- [Threat Hunting Resources and Glossary -](https://www.endace.com/solutions/cybersecurity/threat-hunting/resources-and-glossary)\n- [I | Ian Neil’s Security+ Study Materials](https://securityplus.training/the-book/glossary-d-i/)\n- [website/source/localizable/resources/digital-security-glossary.html.markdown at master · securitywithoutborders/website](https://github.com/securitywithoutborders/website/blob/master/source/localizable/resources/digital-security-glossary.html.markdown)\n- [Glossary](https://niccs.cisa.gov/cybersecurity-career-resources/glossary)\n- [Reference-Security-Incident-Taxonomy-Task-Force/working_copy/humanv1.md at master · enisaeu/Reference-Security-Incident-Taxonomy-Task-Force](https://github.com/enisaeu/Reference-Security-Incident-Taxonomy-Task-Force/blob/master/working_copy/humanv1.md)"
+        ]
+      },
+      {
+        "pageTitle": "user tag",
+        "metaDescription": "A label assigned by users to categorize or identify data points in threat intelligence.",
+        "slug": "/user-tag/",
+        "pageHeading": "user tag",
+        "pageDescription": "A label assigned by users to categorize or identify data points in threat intelligence.",
+        "pageContentBlocks": [
+          "## Description",
+          "User tags are customizable labels that analysts and users can apply to various data sources in threat intelligence to enhance organization, retrieval, and analysis. These tags allow users to categorize threats, incidents, or data points based on their specific needs or criteria. For instance, a user might tag certain indicators of compromise (IOCs) with terms like 'high priority', 'malware', or 'phishing' to facilitate quick filtering and identification later on. The use of user tags also supports collaboration among teams, as different members can use consistent tagging conventions to ensure everyone understands the context of the data. Additionally, user tags can improve the efficiency of threat hunting exercises by allowing analysts to focus on specific categories of threats that are most relevant to their current objectives. Overall, user tags are a powerful tool for managing complex data and improving situational awareness in threat intelligence operations.",
+          "## Examples",
+          "- Tagging IOCs with 'malicious' and 'urgent'.\n- Using tags like 'internal threat' for incidents related to insider threats.",
+          "## Additional Information",
+          "- User-defined tags can be created and modified as needed.\n- Tags can facilitate searches and filtering in threat intelligence platforms.",
+          "## References",
+          ""
+        ]
+      },
+      {
+        "pageTitle": "hover behavior",
+        "metaDescription": "The tendency of users or systems to pause over an element in a digital interface, often triggering specific responses or actions.",
+        "slug": "/hover-behavior/",
+        "pageHeading": "hover behavior",
+        "pageDescription": "The tendency of users or systems to pause over an element in a digital interface, often triggering specific responses or actions.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of threat intelligence, 'hover behavior' refers to the actions taken by users or automated systems when they pause over certain elements in a digital interface, such as icons, links, or images. This behavior can be indicative of user interest, suspicion, or intent to interact with potentially malicious content. Analyzing hover behavior can provide valuable insights into user engagement with security alerts, threat indicators, or other relevant data sources. For instance, if users frequently hover over a particular IP address flagged for suspicious activity, it may indicate heightened concern or interest, prompting further investigation. Additionally, malicious actors may exploit hover behavior through social engineering tactics, enticing users to hover over links that lead to phishing sites or malware downloads. Understanding hover behavior is essential for enhancing user experience while simultaneously improving the detection and response capabilities of threat intelligence platforms. By integrating hover behavior analysis, organizations can better tailor their threat alerts and educational materials to improve user awareness and response to potential threats.",
+          "## Examples",
+          "- Users hover over an alert icon in a threat intelligence dashboard to see more details about a specific threat.\n- A phishing email includes a deceptive link that users may hover over to reveal a misleading URL, indicating potential risk.",
+          "## Additional Information",
+          "- Hover behavior can be tracked and analyzed to improve user interface design in security applications.\n- Machine learning algorithms can be employed to detect anomalous hover patterns that may suggest malicious activity.",
+          "## References",
+          "- [ThreatConnect Knowledge Base](https://knowledge.threatconnect.com/)\n- [Navigate to related resources with data links](https://docs.splunk.com/observability/data-visualization/navigate-with-data-links.html)\n- [Threat Intelligence Resources | Recorded Future](https://www.recordedfuture.com/resources?hss_channel=lcp-678036)\n- [Threat Intelligence Blog | Recorded Future](https://www.recordedfuture.com/blog)\n- [Coming Soon](https://shostack.org/coming-soon)\n- [Understand threat intelligence - Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/understand-threat-intelligence)\n- [Sighting of an Indicator](https://oasis-open.github.io/cti-documentation/examples/sighting-of-an-indicator)\n- [Cybersecurity Insights | Threat Intelligence Videos](https://www.recordedfuture.com/resources/videos)\n- [Attributes — ThreatConnect Developer Docs latest documentation](https://docs.threatconnect.com/en/latest/rest_api/v2/attributes/attributes.html)\n- [Resource Library](https://www.trellix.com/en-us/resource-library.html)"
+        ]
+      },
+      {
+        "pageTitle": "search filters",
+        "metaDescription": "Criteria used to refine and narrow down search results in threat intelligence data sources.",
+        "slug": "/search-filters/",
+        "pageHeading": "search filters",
+        "pageDescription": "Criteria used to refine and narrow down search results in threat intelligence data sources.",
+        "pageContentBlocks": [
+          "## Description",
+          "Search filters are essential tools in the context of threat intelligence, allowing analysts to efficiently sift through large volumes of data to identify relevant threats and insights. These filters can be applied to various attributes of data, such as date ranges, threat types, geographic locations, and specific indicators of compromise (IOCs). By applying search filters, users can focus their investigations on pertinent information, thereby enhancing their ability to respond to threats quickly and effectively. For instance, an analyst may set filters to only view data from the past week related to malware attacks targeting a specific region. This capability is critical in the fast-paced environment of cybersecurity, where timely access to relevant data can significantly impact an organization's ability to defend against attacks. Furthermore, search filters help in organizing and prioritizing threat data, making it easier for teams to collaborate and share insights based on specific criteria.",
+          "## Examples",
+          "- Filtering by date range to view incidents from the last 30 days.\n- Searching for specific malware families or attack vectors.",
+          "## Additional Information",
+          "- Search filters can be combined to create complex queries for more precise results.\n- Many threat intelligence platforms allow users to save and reuse common filter settings.",
+          "## References",
+          "- [Data Sources | MITRE ATT&CK®](https://attack.mitre.org/datasources/)\n- [ThreatConnect Knowledge Base](https://knowledge.threatconnect.com/)\n- [Work with the Search Editor](https://docs.paloaltonetworks.com/autofocus/autofocus-admin/autofocus-search/work-with-the-search-editor)\n- [Understand threat intelligence - Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/understand-threat-intelligence)\n- [Documentation | Tenable™](https://docs.tenable.com/search.htm)\n- [Work with threat indicators - Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/work-with-threat-indicators)\n- [Using Threat Intelligence in your Jupyter Notebooks](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/using-threat-intelligence-in-your-jupyter-notebooks/ba-p/860239)\n- [Threat Data | s0cm0nkey's Security Reference Guide](https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide/cyber-intelligence/threat-data)\n- [Threat Intel Lookup — msticpy 2.12.0 documentation](https://msticpy.readthedocs.io/en/latest/data_acquisition/TIProviders.html)\n- [High-Level Technique for Insider Threat Program's Data Source Selection](https://insights.sei.cmu.edu/blog/high-level-technique-for-insider-threat-programs-data-source-selection/)"
+        ]
+      },
+      {
+        "pageTitle": "metadata",
+        "metaDescription": "Data that provides information about other data.",
+        "slug": "/metadata/",
+        "pageHeading": "metadata",
+        "pageDescription": "Data that provides information about other data.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the context of data sources for threat intelligence, metadata refers to the supplementary information that describes various aspects of the data being collected or analyzed. This includes details such as the source of the data, the time and date it was collected, the type of data (e.g., IP addresses, URLs, file hashes), and the context in which it was generated. Metadata plays a crucial role in threat intelligence as it helps analysts understand the provenance and relevance of the data, enabling them to assess its credibility and applicability to ongoing investigations or threat assessments. By utilizing metadata, organizations can correlate data from multiple sources, improve the accuracy of their threat detection, and enhance their overall situational awareness. Effective management of metadata is essential for making informed decisions based on threat intelligence, as it provides the necessary context to interpret raw data effectively.",
+          "## Examples",
+          "- Source: The origin of the threat data, such as a particular malware sample database or a network monitoring tool.\n- Timestamp: The date and time when the data was collected, which is vital for understanding the timeline of threats.",
+          "## Additional Information",
+          "- Metadata can include tags or labels that categorize data, making it easier to search and retrieve relevant information.\n- Well-structured metadata improves interoperability between different threat intelligence platforms and enhances data sharing among organizations.",
+          "## References",
+          "- [Threat Intelligence Feeds Explained](https://www.bluevoyant.com/knowledge-center/threat-intelligence-feeds-explained)\n- [Standard Metadata Dictionary](https://docs.stellarcyber.ai/4.3.x/Common/Metadata-Dictionary.htm)\n- [What are Threat Intelligence Feeds?](https://www.recordedfuture.com/threat-intelligence-101/intelligence-sources-collection/threat-intelligence-feeds)\n- [A curated list of Awesome Threat Intelligence resources](https://github.com/hslatman/awesome-threat-intelligence)\n- [Top 7 Threat Intelligence Tools for Improved Cybersecurity](https://www.recordedfuture.com/threat-intelligence-101/tools-and-technologies)\n- [Threat Hunting: Data Collection and Analysis](https://www.infosecinstitute.com/resources/threat-hunting/threat-hunting-data-collection-and-analysis/)\n- [What is Cyber Threat Intelligence?](https://www.kaspersky.com/resource-center/definitions/threat-intelligence)\n- [Threat Intelligence](https://docs.datadoghq.com/security/application_security/threats/threat-intelligence/)\n- [The ultimate guide to threat intelligence](https://vulcan.io/blog/threat-intelligence-ultimate-guide/)"
+        ]
+      },
+      {
+        "pageTitle": "Term",
+        "metaDescription": "A specific word or phrase used in the context of data sources for threat intelligence.",
+        "slug": "/term/",
+        "pageHeading": "Term",
+        "pageDescription": "A specific word or phrase used in the context of data sources for threat intelligence.",
+        "pageContentBlocks": [
+          "## Description",
+          "In the realm of threat intelligence, a 'term' refers to a specific word, phrase, or jargon that describes a concept, object, or category relevant to cybersecurity threats and defenses. These terms can encompass a wide range of topics, from technical specifications of malware to broader concepts like 'phishing' or 'cybersecurity framework.' Understanding the terminology is crucial for analysts and professionals in the field, as it ensures clear communication and accurate interpretation of threat data. A well-defined term can help in categorizing threats, understanding their implications, and facilitating effective responses. Additionally, the evolution of cyber threats often leads to the emergence of new terms as new tactics, techniques, and procedures (TTPs) are developed by threat actors. Thus, staying up-to-date with current terminology is essential for any organization looking to bolster its defenses against cyber threats.",
+          "## Examples",
+          "- Phishing - A type of cyberattack that seeks to trick users into providing sensitive information.\n- Malware - Malicious software designed to harm, exploit, or otherwise compromise computer systems.",
+          "## Additional Information",
+          "- Terms can vary between different sectors and industries, leading to the need for a standardized vocabulary in threat intelligence.\n- Continuous education on evolving terms is necessary for cybersecurity professionals to remain effective.",
+          "## References",
+          "- [Data Sources | MITRE ATT&CK®](https://attack.mitre.org/datasources/)\n- [Threat Fields | Elastic Common Schema (ECS) Reference [8.11]](https://www.elastic.co/guide/en/ecs/current/ecs-threat.html)\n- [Threat Fields Usage and Examples | Elastic Common Schema (ECS) Reference [8.11]](https://www.elastic.co/guide/en/ecs/current/ecs-threat-usage.html)\n- [Glossary — ThreatIngestor documentation](https://inquest.readthedocs.io/projects/threatingestor/en/latest/glossary.html)\n- [threat intelligence - Glossary | CSRC](https://csrc.nist.gov/glossary/term/threat_intelligence)\n- [Best Practices for Using ThreatExchange](https://developers.facebook.com/docs/threat-exchange/best-practices)\n- [STIX™ Version 2.1](https://docs.oasis-open.org/cti/stix/v2.1/csprd01/stix-v2.1-csprd01.html)\n- [misp-galaxy/threat-actor-type.json at main · MISP/misp-galaxy](https://github.com/MISP/misp-galaxy/blob/main/vocabularies/common/threat-actor-type.json)\n- [threat](https://ossemproject.com/cdm/entities/threat.html)\n- [](https://developers.facebook.com/docs/threat-exchange/reference/apis/status-type)"
+        ]
+      },
+      {
+        "pageTitle": "Rich text formatting",
+        "metaDescription": "A method of encoding text that allows for the inclusion of formatting features such as bold, italics, color, and hyperlinks.",
+        "slug": "/rich-text-formatting/",
+        "pageHeading": "Rich text formatting",
+        "pageDescription": "A method of encoding text that allows for the inclusion of formatting features such as bold, italics, color, and hyperlinks.",
+        "pageContentBlocks": [
+          "## Description",
+          "Rich text formatting (RTF) is a versatile text format that allows the inclusion of various text styles and attributes beyond plain text. In the context of Data Sources for Threat Intelligence, RTF enables analysts to present information in a visually organized manner, making it easier to highlight critical data, such as threats, vulnerabilities, or indicators of compromise (IoCs). RTF supports the embedding of hyperlinks, images, and different font styles, which can enhance the readability and interpretability of threat reports. This can be particularly useful in collaborative environments where multiple stakeholders need to review or contribute to threat intelligence findings. Moreover, using RTF can facilitate the integration of threat data into various platforms and tools, allowing for better sharing and dissemination of information. Analysts can create documents that not only convey essential technical details but also provide context through formatting, improving communication within cybersecurity teams and with external partners.",
+          "## Examples",
+          "- Formatted threat reports that highlight key indicators of compromise.\n- Collaborative documents that include hyperlinks to external threat intelligence resources.",
+          "## Additional Information",
+          "- RTF files can be opened by many word processors, ensuring broad accessibility.\n- It is commonly used in email communications to enhance the presentation of threat intelligence updates.",
+          "## References",
+          "- [The Beginner's Guide To – RTF Malware Reverse ...](https://bufferzonesecurity.com/the-beginners-guide-to-rtf-malware-reverse-engineering-part-1/)\n- [How RTF malware evades static signature-based detection](https://cloud.google.com/blog/topics/threat-intelligence/how-rtf-malware-evad/)\n- [A curated list of Awesome Threat Intelligence resources](https://github.com/hslatman/awesome-threat-intelligence)\n- [Hackers Getting Rich on RTF](https://securityboulevard.com/2022/01/hackers-getting-rich-on-rtf/)\n- [From DarkNet forums to structured data format — Machine ...](https://medium.com/@kananhusayn/from-darknet-forums-to-structured-data-format-machine-learning-implementation-of-threat-946d9ca4b72a)\n- [Cybersecurity Threat Intelligence Feed Integrations](https://www.malwarepatrol.net/integrations-formats-threat-intelligence-feed-integration/)\n- [NLP-Based Techniques for Cyber Threat Intelligence](https://arxiv.org/abs/2311.08807)\n- [Guide to Cyber Threat Information Sharing](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-150.pdf)\n- [Threat Intelligence Feed Sources](https://medium.com/@AllDaySOC/threat-intelligence-feed-sources-deb5ddc41929)"
+        ]
+      },
+      {
+        "pageTitle": "Status markers",
+        "metaDescription": "Indicators used to assess the reliability and relevance of data sources in threat intelligence.",
+        "slug": "/status-markers/",
+        "pageHeading": "Status markers",
+        "pageDescription": "Indicators used to assess the reliability and relevance of data sources in threat intelligence.",
+        "pageContentBlocks": [
+          "## Description",
+          "Status markers are critical indicators that help analysts evaluate the credibility, reliability, and relevance of data sources used in threat intelligence. These markers provide insights into the quality and trustworthiness of the information gathered from various sources, which can include open-source intelligence, social media, dark web forums, and proprietary databases. Status markers can indicate whether a source is reputable, the frequency of updates, the historical accuracy of the information provided, and the context in which the information was generated. By analyzing these markers, organizations can prioritize their data sources, focusing on those that consistently deliver high-quality, actionable intelligence. This systematic assessment is vital in a landscape where misinformation can lead to poor decision-making and heightened risk. Effective use of status markers not only enhances the overall quality of threat intelligence but also improves the organization's ability to respond to emerging threats swiftly and efficiently.",
+          "## Examples",
+          "- A source that has been verified by multiple independent analysts.\n- A data feed that is updated hourly with real-time threat intelligence.",
+          "## Additional Information",
+          "- Status markers can include factors like source reputation, update frequency, and historical accuracy.\n- Organizations may develop their own status marker systems tailored to their specific threat intelligence needs.",
+          "## References",
+          "- [Using Marking Definitions](https://oasis-open.github.io/cti-documentation/examples/using-marking-definitions)\n- [Using Granular Markings](https://oasis-open.github.io/cti-documentation/examples/using-granular-markings)\n- [High-Level Technique for Insider Threat Program's Data Source Selection](https://insights.sei.cmu.edu/blog/high-level-technique-for-insider-threat-programs-data-source-selection/)\n- [Threat Fields | Elastic Common Schema (ECS) Reference [8.11]](https://www.elastic.co/guide/en/ecs/current/ecs-threat.html)\n- [Indicator for Malicious URL](https://oasis-open.github.io/cti-documentation/examples/indicator-for-malicious-url)\n- [Sighting of an Indicator](https://oasis-open.github.io/cti-documentation/examples/sighting-of-an-indicator)\n- [Sensor Health, Data Source DS0013](https://attack.mitre.org/datasources/DS0013/)\n- [Best Practices for Using ThreatExchange](https://developers.facebook.com/docs/threat-exchange/best-practices)\n- [Defining ATT&CK Data Sources, Part I: Enhancing the Current State](https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f)\n- [Talkin’ SMAC: Alert Labeling and Why It Matters](https://www.rapid7.com/blog/post/2021/02/12/talkin-smac-alert-labeling-and-why-it-matters/)"
+        ]
+      }
+    ]
+  }
+]
